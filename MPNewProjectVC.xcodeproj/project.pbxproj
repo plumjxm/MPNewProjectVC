@@ -15,6 +15,8 @@
 		382B20281F6D0AE900EAD18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382B20261F6D0AE900EAD18D /* LaunchScreen.storyboard */; };
 		382B20331F6D0AE900EAD18D /* MPNewProjectVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B20321F6D0AE900EAD18D /* MPNewProjectVCTests.m */; };
 		382B203E1F6D0AE900EAD18D /* MPNewProjectVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B203D1F6D0AE900EAD18D /* MPNewProjectVCUITests.m */; };
+		382B204D1F6D0B5D00EAD18D /* MPCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B204C1F6D0B5D00EAD18D /* MPCircleView.m */; };
+		382B20501F6D0B7700EAD18D /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 382B204F1F6D0B7700EAD18D /* UIViewExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		382B20391F6D0AE900EAD18D /* MPNewProjectVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPNewProjectVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		382B203D1F6D0AE900EAD18D /* MPNewProjectVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPNewProjectVCUITests.m; sourceTree = "<group>"; };
 		382B203F1F6D0AE900EAD18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382B204B1F6D0B5D00EAD18D /* MPCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCircleView.h; sourceTree = "<group>"; };
+		382B204C1F6D0B5D00EAD18D /* MPCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCircleView.m; sourceTree = "<group>"; };
+		382B204E1F6D0B7700EAD18D /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		382B204F1F6D0B7700EAD18D /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		382B20171F6D0AE900EAD18D /* MPNewProjectVC */ = {
 			isa = PBXGroup;
 			children = (
+				382B204E1F6D0B7700EAD18D /* UIViewExt.h */,
+				382B204F1F6D0B7700EAD18D /* UIViewExt.m */,
+				382B204B1F6D0B5D00EAD18D /* MPCircleView.h */,
+				382B204C1F6D0B5D00EAD18D /* MPCircleView.m */,
 				382B201B1F6D0AE900EAD18D /* AppDelegate.h */,
 				382B201C1F6D0AE900EAD18D /* AppDelegate.m */,
 				382B201E1F6D0AE900EAD18D /* ViewController.h */,
@@ -278,7 +288,9 @@
 			files = (
 				382B20201F6D0AE900EAD18D /* ViewController.m in Sources */,
 				382B201D1F6D0AE900EAD18D /* AppDelegate.m in Sources */,
+				382B20501F6D0B7700EAD18D /* UIViewExt.m in Sources */,
 				382B201A1F6D0AE900EAD18D /* main.m in Sources */,
+				382B204D1F6D0B5D00EAD18D /* MPCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PPXJK553U9;
 				INFOPLIST_FILE = MPNewProjectVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mp.MPNewProjectVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PPXJK553U9;
 				INFOPLIST_FILE = MPNewProjectVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mp.MPNewProjectVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
